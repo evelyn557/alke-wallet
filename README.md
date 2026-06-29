@@ -1,4 +1,5 @@
 # Alke Wallet
+> **Nota:** Este proyecto fue desarrollado con fines educativos como parte de un curso de programación. No es una aplicación financiera real ni está conectada a servicios bancarios auténticos.
 
 Bienvenido a Alke Wallet, una aplicación web de billetera digital diseñada para gestionar activos financieros de manera intuitiva y segura.
 
