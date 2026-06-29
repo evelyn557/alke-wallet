@@ -1,0 +1,20 @@
+/* Estilos para el Menú Principal */
+body { 
+    background-color: #f8f9fa; 
+    padding: 50px 20px; 
+}
+
+.card { 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.container { 
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
+/* Ajuste para los botones */
+.d-grid {
+    display: grid;
+}

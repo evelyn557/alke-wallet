@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wallet - Menú Principal</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+  <a class="navbar-brand" href="#">Alke Wallet</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="menu.html">Inicio</a></li>
+      <li class="nav-item"><a class="nav-link" href="sendmoney.html">Enviar Dinero</a></li>
+      <li class="nav-item"><a class="nav-link" href="transactions.html">Movimientos</a></li>
+    </ul>
+  </div>
+</nav>
+  <div class="container">
+    <div class="card p-4">
+      <h2 class="text-center mb-4">Menú Principal</h2>
+      
+      <div class="form-group text-center">
+        <label>Dinero en cuenta:</label>
+        <h1 class="display-4 text-primary">$<span id="balance">0</span></h1>
+      </div>
+
+      <hr>
+
+      <div class="d-grid gap-2">
+        <button id="btn-depositar" class="btn btn-outline-primary btn-block mb-2">Depositar</button>
+        <button id="btn-enviar" class="btn btn-outline-primary btn-block mb-2">Enviar Dinero</button>
+        <button id="btn-historial" class="btn btn-outline-primary btn-block">Últimos Movimientos</button>
+      </div>
+      
+      <p id="resultado" class="text-center mt-3 text-muted font-italic"></p>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/menu.js"></script>
+</body>
+</html>
